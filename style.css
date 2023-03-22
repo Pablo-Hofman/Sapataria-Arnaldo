@@ -1,1 +1,16 @@
+body {
+}
+.titulo-pagina{
+margin; 20px 20px 20px 20px: /*margin; top right bottom left; */
+font-size: 24pt;
+}
+.subtitulo-pagina{
+font-size:20pt;
+}
 
+.titulo-artigo{
+font-size: 18pt;
+}
+.substitulo-artigo{
+font-size: 14pt;
+}
