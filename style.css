@@ -1,23 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Fasthand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 body{
-    background-color: rgb(161, 132, 107);
+    background-color: rgb(172, 151, 131);
 }
 
 .titulo-home {
     text-align: center;
     font-size: 40pt;
-    font-family: 'Dr Sugiyama', cursive;
+    font-family: 'Yellowtail', cursive;
 }
-
 .paragrafo {
-    margin: 40px auto 20px; 
+    font-family: 'Nothing You Could Do', cursive;
+    margin: 30px auto 10px; 
     text-align: center;
     width: 1100px;
+    color: rgb(0, 0, 0);
 }
 
 .navbar{
+    position: absolute;
+    top: 30px;
     text-align: right;
+    color: rgb(150, 102, 30);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(2, 1, 1);
 }
 
 .navbar li {
@@ -27,12 +37,22 @@ body{
     text-decoration: none;
 }
 
-.img-home {
-    text-align: center;
+.img-home img {
+
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 30%;
 }
 
 .descrição{
-    width: 900px;
+    width: 900px auto;
+    text-align: center;
+}
+
+.descrição-2{
+    width: 900px auto;
+    text-align:center
 }
 
 .telefone{
@@ -43,4 +63,22 @@ body{
 
 .img-contato{
     text-align: center;
+}
+
+.sapataria{
+    font-size:40pt auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.descrição-3{
+    font-size:40pt auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.sapato3 img {
+    width: 100%;
+    height: 900px;
+    object-fit:auto;
+    object-position: 50% 30%;
 }
