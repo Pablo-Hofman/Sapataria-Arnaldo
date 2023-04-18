@@ -30,6 +30,7 @@
 .contact-form textarea{
     width: 100%;
     height: 350px;
+    resize: none;
 }
 .contact-section{
     text-align: center;
@@ -53,6 +54,9 @@ button{
     width: 55%;
 }
 aside{
+    display: flex;
+    justify-content: space-between;
     width: 40%;
     height: 40%;
+
 }
