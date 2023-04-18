@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+
     <header>
         <header>
-            <img class="sapatos-banner" src="Img/Sapato-banner2.jpg" alt="Sapatos-header"> 
+            <img class="sapatos-banner" src="Img/Sapato-banner2.jpg" alt="Sapatos-header">
             <nav class="navbar">
                 <ul>
                     <li>
@@ -27,6 +31,36 @@
                     </li>
                 </ul>
             </nav>
-  </header>
+        </header>
+        <main class="contact-section">
+            <h1>Formulário de contato para o orçamento</h1><br><br>
+
+            <section class="contact-form">
+
+                <form action="/action_page.php" target="_blank" method="post">
+                    <label for="fname">Nome:</label><br>
+
+                    <input type="text" id="fname" name="fname" value=""><br>
+                    <label for="lname">Sobrenome:</label><br>
+
+                    <input type="text" id="fname" name="fname" value=""><br>
+                    <label for="lname">Telefone</label><br>
+
+                    <input type="text" id="fname" name="fname" value=""><br>
+                    <label for="lname">Assunto</label><br>
+
+                    <input type="text" id="fname" name="fname" value=""><br>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+
+                    <button>Enviar</button>
+                </form>
+                <aside>
+                    <img class="fachada" src="img/sapataria-local.jpg" alt="Foto do local">
+                    <h3>Horário de atendimento</h3>
+                </aside>
+            </section>
+        </main>
 </body>
+
 </html>
