@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
 .navbar ul{
     display: flex;
     justify-content: center;
@@ -23,31 +26,44 @@
     object-fit: cover;
     object-position: 100%;
 }
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 74pt;
+}
 .contact-form{
     display:flex;
     justify-items: center;
 }
 .contact-form textarea{
-    width: 100%;
+    width: 60%;
     height: 350px;
     resize: none;
+    margin-bottom: 10px;
 }
 .contact-section{
     text-align: center;
+    margin-top: 0%;
 }
 button{
     display: block;
     text-align: center;
     margin: auto;
+    box-shadow: 2px 2px 2px;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .fachada{
+    margin-top: 60px;
     width: 50%;
     height: 100%; 
 
 }
 .contact-form form{
     width: 50%;
+    height: 50%;
 
 }
 .contact-form input{
@@ -58,5 +74,12 @@ aside{
     justify-content: space-between;
     width: 40%;
     height: 40%;
-
+    
+}
+.redes-sociais{
+   justify-content: right;
+   
+}
+.redes-sociais img{
+ width: 56px;
 }
