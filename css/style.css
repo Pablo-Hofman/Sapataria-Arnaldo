@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
 
 .navbar ul{
@@ -14,10 +15,12 @@
 
 .navbar ul li a{
     text-decoration: none;
+    color: rgb(97, 56, 56);
 }
 
-.navbar{   
-     
+.navbar a:hover {   
+     border-bottom: solid 4px;
+     color: rgb(97, 56, 56);
 }
 
 .sapatos-banner {
@@ -82,4 +85,15 @@ aside{
 }
 .redes-sociais img{
  width: 56px;
+
+}
+.text-home{
+    font-size: 18pt;
+    color: rgb(97, 56, 56);
+    font-family: 'Amatic SC', cursive;
+    
+}
+.sapato img{
+    margin: 50% ;
+    width: 50%;
 }
