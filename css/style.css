@@ -35,6 +35,11 @@
     text-align: center;
     font-size: 74pt;
 }
+
+.rodape{
+    font-size: 17px;
+}
+
 .contact-form{
     display:flex;
     justify-items: center;
@@ -81,19 +86,30 @@ aside{
 }
 .redes-sociais{
    justify-content: right;
+   margin-top: 50px;
    
 }
 .redes-sociais img{
  width: 56px;
+ display: inline;
 
 }
 .text-home{
-    font-size: 18pt;
+    font-size: 20pt;
     color: rgb(97, 56, 56);
     font-family: 'Amatic SC', cursive;
+    margin: 200px;
     
 }
-.sapato img{
-    margin: 50% ;
-    width: 50%;
+.sapato-made {
+    margin:auto ;
+    margin-top: 80px;
+    image-resolution: 100%;
+    width: 20%;
+    height: 20%;
+
+}
+.titulo-horario{
+    font-weight: 900;
+    margin-top: 70px;
 }

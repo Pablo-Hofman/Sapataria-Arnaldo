@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -38,7 +39,8 @@
 
             <section class="contact-form">
 
-                <form action="/action_page.php" target="_blank" method="post" onsubmit="alert('Formulário enviado com sucesso. Obrigado pelo contato. ... ;^)')">
+                <form action="/action_page.php" target="_blank" method="post"
+                    onsubmit="alert('Formulário enviado com sucesso. Obrigado pelo contato. ... ;^)')">
                     <label for="fname">Nome:</label><br>
 
                     <input type="text" id="fname" name="fname" value=""><br>
@@ -59,25 +61,26 @@
                 <aside>
                     <img class="fachada" src="img/sapataria-local.jpg" alt="Foto do local">
                     <div>
-                        <h2>Horário de atendimento</h2>
-                            <ul><br>
-                               <h3>
-                               <li><p>Segunda à Sexta</p>
-                                    - dás 8:00 às 17:00 -</p><br>
-                               </li>
-                               <li><p>Sábados</li>
-                                   - dás 10:00 às 15:00 -</p><h3>
-                            </ul>
-                            <div class="redes-sociais">
-                              <img src="img/instagram.png" alt="INSTA@Sapatos Arnaldo">
-                               <img src="Img/facebook.png" alt="Pág-Sapataria do Arnaldo">
-                                <img src="img/whatsapp.png" alt="(11)9 7007-0770">
-                                
-                            </div>
+                        <p class="titulo-horario"> Horário de atendimento</p>
+                        <p>Segunda à Sexta</p>
+                        <p>- dás 8:00 às 17:00 -</p>
+                        <p>Sábados</p>
+                        <p>- dás 10:00 às 15:00 -</p>
+
+
+                        <div class="redes-sociais">
+                            <img src="img/instagram.png" alt="INSTA@Sapatos Arnaldo">
+                            <img src="Img/facebook.png" alt="Pág-Sapataria do Arnaldo">
+                            <img src="img/whatsapp.png" alt="(11)9 7007-0770">
+
                         </div>
+                    </div>
                 </aside>
             </section>
         </main>
+        <footer class="rodape">
+            <h1>Siga-nos nas redes sociais</h1>
+        </footer>
 </body>
 
 </html>
