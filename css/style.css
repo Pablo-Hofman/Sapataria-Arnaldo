@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
+.navbar p{
+    font-size: 20pt;
+    font-family: 'Dancing Script', cursive;
+    margin: 40pt;
+}
+.photo-sr.arnaldo img {
+    display: flex;
+    justify-content: center;
+
+}
 
 .navbar ul{
     display: flex;
@@ -16,6 +27,7 @@
 .navbar ul li a{
     text-decoration: none;
     color: rgb(97, 56, 56);
+    transition: all 400ms;
 }
 
 .navbar a:hover {   
@@ -38,6 +50,15 @@
 
 .rodape{
     font-size: 17px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40pt;
+    font-size: 40pt;
+    background-color: rgb(97, 56, 56);
+    color: antiquewhite;
+    font-family: 'Dancing Script', cursive;
+
+   
 }
 
 .contact-form{
@@ -58,16 +79,27 @@ button{
     display: block;
     text-align: center;
     margin: auto;
-    box-shadow: 2px 2px 2px;
-    border-radius: 10px;
-    padding: 20px;
+    box-shadow: 2px 5px 5px rgb(97, 56, 56);
+    border-radius: 20px;
+    padding: 23px;
+    transition: all 400ms;
+    border-bottom: solid 5px;
+    color: rgb(97, 56, 56);
+
 }
 
 .fachada{
-    margin-top: 60px;
-    width: 50%;
-    height: 100%; 
+    font-size: 20pt;
+    font-family: 'Dancing Script', cursive;
 
+    
+    
+}
+.fachada img{
+    margin-top: 60px;
+    width: 400px;
+    height: 400pt; 
+    border: 10px solid rgb(97, 56, 56);
 }
 .contact-form form{
     width: 50%;
@@ -79,14 +111,16 @@ button{
 }
 aside{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 40%;
     height: 40%;
     
 }
 .redes-sociais{
+    display: flex;
    justify-content: right;
    margin-top: 50px;
+
    
 }
 .redes-sociais img{
@@ -96,14 +130,15 @@ aside{
 }
 .text-home{
     font-size: 20pt;
+    font-weight: bold;
     color: rgb(97, 56, 56);
     font-family: 'Amatic SC', cursive;
-    margin: 200px;
+    margin: 8%;
     
 }
 .sapato-made {
     margin:auto ;
-    margin-top: 80px;
+    margin-top: 40px;
     image-resolution: 100%;
     width: 20%;
     height: 20%;
@@ -112,4 +147,23 @@ aside{
 .titulo-horario{
     font-weight: 900;
     margin-top: 70px;
+}
+.form-contact{
+    justify-content: center;
+    text-align: center;
+    font-size: 40pt;
+    margin-bottom: 40pt;
+    font-family: 'Dancing Script', cursive;
+
+}
+.history-home h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: auto;
+    font-size: 40pt;
+}
+.history-home p{
+    font-family: 'Dancing Script', cursive;
+    margin:7%;
+    font-size: 20pt;
 }
