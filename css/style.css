@@ -183,13 +183,19 @@ aside{
 
 }
 .itens .photos-produtos img{
-    width: 450px;
-    height: 450px;
+    width: 430px;
+    height: 430px;
 
 }
 .itens .photos-produtos:nth-child(3) img {
     height: 200px;
+    width: 300px;
+    margin-top: 150px;
+    padding-bottom: 90px;
+}
+.itens .photos-produtos:nth-child(5) img {
+    height: 200px;
     width: 200px;
     margin-top: 150px;
-    padding-bottom: 70px;
+    padding-bottom: 80px;
 }
